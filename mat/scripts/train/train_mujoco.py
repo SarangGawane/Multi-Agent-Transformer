@@ -10,7 +10,7 @@ import torch
 
 
 sys.path.append("../../")
-from config import get_config
+from config.py import get_config
 from mat.envs.ma_mujoco.multiagent_mujoco.mujoco_multi import MujocoMulti
 from mat.runner.shared.mujoco_runner import MujocoRunner as Runner
 from mat.envs.env_wrappers import ShareSubprocVecEnv, ShareDummyVecEnv
