@@ -7,7 +7,7 @@ import setproctitle
 import numpy as np
 from pathlib import Path
 import torch
-import mat
+
 
 sys.path.append("../../")
 from mat.config import get_config
