@@ -8,7 +8,7 @@ import numpy as np
 from pathlib import Path
 import torch
 
-sys.path.append("/content/Multi-Agent-Transformer/mat")
+sys.path.append("../../")
 from mat.config import get_config
 from mat.envs.ma_mujoco.multiagent_mujoco.mujoco_multi import MujocoMulti
 from mat.runner.shared.mujoco_runner import MujocoRunner as Runner
